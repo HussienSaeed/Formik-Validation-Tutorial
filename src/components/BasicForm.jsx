@@ -19,7 +19,7 @@ const BasicForm = () => {
     })
   console.log(errors)
   return (
-    <form autoComplete="off" onSubmit={handleSubmit}>
+    <form autoComplete="off" autoCorrect='off' onSubmit={handleSubmit}>
       
       <label htmlFor="email">Email</label>
       <input value={values.email} onChange={handleChange} onBlur={handleBlur} type="email" id="email" placeholder="Enter your email" className={errors.email && touched.email ? "input-error" : ""} />    

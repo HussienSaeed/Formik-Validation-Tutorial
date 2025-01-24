@@ -1,13 +1,12 @@
 .App {
-  text-align: center;
   padding: 5rem 1rem;
   
 }
 
 .error {
-  color: #a5a5a5;
-  font-size: 0.75rem;
-  text-align: left;
+  color: #fc8181;
+  font-size: .75rem;
+  text-align: left !important;
   margin-top: 0.25rem;
 }
 
@@ -47,8 +46,8 @@ form label {
   margin: 1rem 0 0.2rem;
 }
 
-input,
-select {
+input
+ {
   width: 95%;
   padding: 0.65rem 0.5rem;
   font-size: 1rem;
@@ -57,6 +56,18 @@ select {
   background-color: #2d3748;
   border-radius: 10px;
   outline: none;
+}
+
+select {
+  width: 100%;
+  padding: 0.65rem 0.5rem;
+  font-size: 1rem;
+  color: white;
+  border: 2px solid #4a5568;
+  background-color: #2d3748;
+  border-radius: 10px;
+  outline: none;
+
 }
 
 input:focus,
@@ -97,4 +108,5 @@ select.input-error {
 button:disabled {
   opacity: 0.35;
 }
+
 
